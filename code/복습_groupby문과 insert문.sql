@@ -169,14 +169,3 @@ select mem_id, mem_name, age from bda_sql2;
 
 select mem_name, avg(age) from bda_sql2
 group by mem_name;
-
-##1. 필수과제 create table 만들기 1개 전체 출력값
-## 내용은 자유롭게 하셔도 됩니다! 
-## 최소 컬럼은 4개 이상 만들어 주시고! ( 계산 가능한 숫자형 컬럼도 2개 이상 만들어 주세요! )
-## 2. 동일하게 파생변수 숫자형 컬럼들끼리 * 해서 출력 2개
-## 3. 조건을 걸어서 where 조건으로 값을 출력 2개
-## 4. groupby 를 통해 집계함수 출력 2개
-## 5. groupby 의 having 절을 이용해서 출력 2개
-
-## 각 번호당 출력수는 2개 이상으로 해주세요! 
-## sql 출력하는 문법이 9개 
